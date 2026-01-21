@@ -4,7 +4,7 @@ import { testimonialsConfig } from "../config/testimonials.config";
 export function useTestimonialsCarousel() {
     const [current, setCurrent] = useState(0);
     const [autoplay, setAutoplay] = useState(true);
-    const total = testimonialsConfig.testimonials.length;
+    const total = testimonialsConfig.caseStudies.length;
 
     useEffect(() => {
         if (!autoplay) return;
@@ -31,12 +31,12 @@ export function useTestimonialsCarousel() {
         setCurrent(index);
     };
 
-    const testimonial = testimonialsConfig.testimonials[current];
+    const caseStudy = testimonialsConfig.caseStudies[current];
 
     return {
         current,
         total,
-        testimonial,
+        caseStudy,
         next,
         prev,
         goTo,
