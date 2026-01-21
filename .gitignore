@@ -29,6 +29,3 @@ next-env.d.ts
 # yarn
 yarn.lock
 .yarn/
-
-# npm
-package-lock.json
