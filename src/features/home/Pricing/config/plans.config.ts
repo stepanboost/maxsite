@@ -1,0 +1,56 @@
+export const pricingConfig = {
+    title: "Simple, Transparent Monthly Pricing",
+    subtitle: "No contracts. Cancel anytime. Choose the plan that fits your business needs.",
+    trialInfo: "Book a free consultation to see which plan is right for you.",
+
+    plans: [
+        {
+            name: "Starter",
+            description: "Perfect for getting started with AI lead capture",
+            monthlyPrice: 300,
+            annualPrice: 300,
+            features: [
+                "AI sales bot on website",
+                "Lead capture",
+                "CRM integration",
+                "Basic analytics",
+                "Email support",
+            ],
+            cta: "Book Free Consultation",
+            popular: false,
+        },
+        {
+            name: "Growth",
+            description: "Most popular for growing service businesses",
+            monthlyPrice: 600,
+            annualPrice: 600,
+            features: [
+                "AI bot + SMS automation",
+                "Lead qualification",
+                "Monthly optimization",
+                "Advanced analytics",
+                "Priority support",
+                "Custom AI training",
+            ],
+            cta: "Book Free Consultation",
+            popular: true,
+        },
+        {
+            name: "Scale",
+            description: "Full AI sales system for maximum results",
+            monthlyPrice: 1000,
+            annualPrice: 1000,
+            features: [
+                "AI bot + SMS + AI phone",
+                "Full client journey automation",
+                "Priority support",
+                "Custom integrations",
+                "Dedicated account manager",
+                "Weekly optimization calls",
+                "Advanced reporting",
+            ],
+            cta: "Book Free Consultation",
+            popular: false,
+        },
+    ],
+}
